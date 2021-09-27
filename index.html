@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3school</title>
+    <link rel="icon" href="https://fullstack.edu.vn/assets/favicon/apple-touch-icon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+</head>
+<body>    
+        <div id="main">
+            <div id="header">
+                <ul class="heading_menu" id="menu">
+                    <li class="heading_item">
+                        <a href="#" class="heading_link">home</a>
+                    </li>
+                    <li class="heading_item">
+                        <a href="#band" class="heading_link">band</a>
+                    </li>
+                    <li class="heading_item">
+                        <a href="#tour" class="heading_link">tour</a>
+                    </li>
+                    <li class="heading_item">
+                        <a href="#contact" class="heading_link">contact</a>
+                    </li>
+                    <li class="heading_item item-absolute">
+                        <a href="#" class="heading_link">more
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </a>
+                        <ul class="heading_subnav">
+                            <li class="heading_item">
+                                <a href="#" class="heading_link">Merchandise</a>
+                            </li>
+                            <li class="heading_item">
+                                <a href="#" class="heading_link">Extras</a>
+                            </li>
+                            <li class="heading_item">
+                                <a href="#" class="heading_link">Media</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="heading_search">
+                    <span class="heading_search-icon">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </span>
+                    <span class="heading_search-menu" id="iconMenu" onClick="showMenu()">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+            <div id="slider">
+                <!-- <img src="./assets/images/ny.jpg" width="100%"> -->
+               <div class="text-content">
+                   <span class="text-main">New York</span>
+                   <span class="text-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. .</span>
+               </div>
+            </div>
+
+            <div id="content">
+                <div class="section" id="band">
+                    <h2 class="section-heading">the band</h2>
+                    <p class="section-sub">we love music</p>
+                    <p class="section-paragraph">
+                        We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="members text-center row">
+                        <div class="members-item">
+                            <div class="members-item-heading mg-top-bt-15px">Name</div>
+                            <img src="./assets/images/bandmember.jpg" alt="member" class="members-item-p1">
+                        </div>
+                        <div class="members-item">
+                            <div class="members-item-heading mg-top-bt-15px">Name</div>
+                            <img src="./assets/images/bandmember.jpg" alt="member" class="members-item-p2">
+                        </div>
+                        <div class="members-item">
+                            <div class="members-item-heading mg-top-bt-15px">Name</div>
+                            <img src="./assets/images/bandmember.jpg" alt="member" class="members-item-p3">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour-section">
+                    <div class="section" id="tour">
+                        <h2 class="section-heading text-white">tour dates</h2>
+                        <p class="section-sub text-white">Remember to book your tickets</p>
+                         
+                        <ul class="tickers-list bg-white">
+                            <li class="tickers-item">September
+                                <span class="tickers-tag text-white">Sold out</span>
+                            </li>
+                            <li class="tickers-item">October
+                                <span class="tickers-tag text-white">Sold out</span>
+                            </li>
+                            <li class="tickers-item">November
+                                <span class="tickers-badge text-white">3</span>
+                            </li>
+                        </ul>
+
+                        <div class="places-list">
+                            <div class="places-item">
+                                <img src="./assets/images/newyork.jpg" alt="photo" class="places-item-p1">
+                                <div class="places-content bg-white">
+                                    <h3 class="places-heading">New York</h3>
+                                    <p class="places-time">Fri 27 Nov 2016</p>
+                                    <p class="places-dec">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <a href="#" class="places-buy js__buy-tickers">Buy Tickers</a>
+                                </div>
+                            </div>
+
+                            <div class="places-item">
+                               <img src="./assets/images/paris.jpg" alt="photo" class="places-item-p1">
+                                <div class="places-content bg-white">
+                                    <h3 class="places-heading">New York</h3>
+                                    <p class="places-time">Fri 27 Nov 2016</p>
+                                    <p class="places-dec">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <a href="#" class="places-buy js__buy-tickers">Buy Tickers</a>
+                                </div>
+                            </div>
+
+                            <div class="places-item">
+                                <img src="./assets/images/sanfran.jpg" alt="photo" class="places-item-p1">
+                                <div class="places-content bg-white">
+                                    <h3 class="places-heading">New York</h3>
+                                    <p class="places-time">Fri 27 Nov 2016</p>
+                                    <p class="places-dec">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <a href="#" class="places-buy  js__buy-tickers">Buy Tickers</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>                
+                <div class="section" id="contact">
+                    <h2 class="section-heading">contact</h2>
+                    <p class="section-sub">Fan? Drop a note!</p>
+                    <div class="members row">
+                        <div class="members-item pd-right-left-8px" style="font-size: 18px;">
+                            <p>
+                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                 Chicago, US
+                            </p>
+                            <p>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                Phone: +00 151515
+                            </p>
+                            <p>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                Email: mail@mail.com
+                            </p>
+                            
+                        </div>
+                        <div class="members-item">                            
+                            <div class="members mg-top-0px">
+                                <div class="members-item pd-right-left-8px">
+                                    <input type="text" required class="form-control model-body-input" placeholder="Name">
+                                </div>
+                                <div class="members-item pd-right-left-8px">
+                                    <input type="email" required class="form-control model-body-input" placeholder="Email">
+                                </div>
+                                                    
+                            </div>
+                            <div class="pd-right-left-8px">
+                                <input type="text" required class="form-control model-body-input" placeholder="Message">
+                                <button type="submit" class="btn places-buy mg-top-bt-15px btn-send">send</button>  
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    </div>
+                    <div class="banner">
+                        <img src="./assets/images/map.jpg" alt="map" width="100%">
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer">
+                <div class="footer-box">
+                    <div class="footer-box-item">
+                        <span>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </span>
+                        <span>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </span>
+                        <span>
+                            <i class="fa fa-snapchat" aria-hidden="true"></i>
+                        </span>
+                        <span>
+                            <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                        </span>
+                        <span>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </span>
+                        <span>
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="footer-box-text">
+                        <p>Powered by <a href="https://www.w3schools.com/w3css/tryw3css_templates_band.htm#">w3.css</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div class="model js-model">
+            <div class="model-container js-model-container">
+                <header class="model-header bg-model-grey">
+                    <span class="moel-header-box text-white">
+                        <i class="fa fa-suitcase mg-right" aria-hidden="true"></i>
+                        Tickers
+                    </span>
+                    <span class="model-header-close js-model-close">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </span>
+                </header>
+                <div class="model-body">
+                    <label for="" class="model-body-label mg-top-bt-15px">
+                        <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                         Tickets, $15 per person
+                    </label>
+                    <input type="text" class="model-body-input" placeholder="How many ?">
+                    <label for="" class="model-body-label mg-top-bt-15px">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                          Send To
+                    </label>
+                    <input type="text" class="model-body-input" placeholder="Enter email ?">
+                    <button id="buy-tickers" class="model-body-btn-buy bg-model-grey mg-top-bt-15px">
+                        Pay<i class="fa fa-check" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="model-footer">
+                    <p>Need <a href="#">Help</a></p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" language="javascript" src="assets/js/main.js"></script> 
+</body>
+</html>

@@ -1,0 +1,24 @@
+.btn {
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        font-size: 1.6rem;
+        position: relative;
+        transition: all .2s;
+    }
+    &-send {
+        display: block;
+        float: right;
+        padding: 8px 16px;
+        background: #000;
+        color: #fff;
+        border: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
+

@@ -1,0 +1,218 @@
+.heading{
+    
+    &_menu {
+        
+    } /*ul*/
+
+    &_item {
+        display: inline-block;
+        padding:0 24px;
+        list-style: none;
+        line-height: 46px;
+        cursor: pointer;
+        position: relative;
+        &:hover {
+            background-color: #ccc !important;
+        }        
+    }
+
+    &_link {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;     
+        font-weight: 400;   
+    }  
+    
+    &_search {
+        text-align: center;
+        position: relative;
+        height: 100%;
+        
+        cursor: pointer;
+        :hover {
+            background-color: red;
+        }
+        span {
+            color: #FFF;
+            line-height: 46px;
+            font-size: 25px;
+            font-weight: 700;
+            padding: 10px 23px;
+            // display: block;
+            
+        }
+        &-menu {
+            display: none;
+        }
+    }
+    
+
+}
+.text-content {
+   
+
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #fff;
+}
+.text-main {
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    animation: animation_main ease 0.5s;  
+}
+.text-sub {
+    display: block;
+    margin-top: 25px;
+    font-size: 15px;
+    animation: animation_sub ease 0.5s;
+    
+}
+
+.section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+    max-width: 100%;
+    &-heading {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    &-sub {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 30px 0;
+        text-transform: inherit;
+        font-style: italic;
+        opacity: 0.6;
+    }
+    &-paragraph {
+        text-align: justify;
+        font-size: 15px;
+        line-height: 1.5;
+        font-weight: 400;
+    }
+}
+
+.members {
+    margin-top: 50px;
+    display: flex;
+    
+    &-item {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex: 1;
+        margin-bottom: 15px;
+           
+    &-p1, &-p2,&-p3 {
+            border-radius: 5px;
+            width: 60%;
+        }
+}
+}
+
+.tickers {
+    &-list {}
+
+    &-item {
+        color: #757575;
+        list-style-type: none;
+        font-size: 15px;
+        padding: 11px 16px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    &-tag {
+        background-color: #f44336;
+        padding: 3px 4px;
+        margin-left: 16px;
+        
+    }
+
+    &-badge {
+        background-color: #000;
+        float: right;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 24px;
+        margin-top: -3px;
+    }
+}
+
+.places {
+    &-list{
+        margin-top: 30px;
+        display: flex;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    &-item{
+        justify-content: space-between;
+        padding: 0 8px;
+        &-p1,&-p2,&-p3 {
+             width: 100%;
+             display: block;
+        }
+        &-p1:hover,&-p2:hover,&-p3:hover {
+            opacity: 0.5;
+        }
+    }
+    &-content{
+       display: block;
+        padding: 16px 16px;
+    }
+    &-heading{
+        margin-top: 15px; 
+    }
+    &-time{
+        opacity: 0.8;
+    }
+    &-dec{
+        
+    }
+    &-buy{
+        text-decoration: none;
+        padding: 10px 15px;
+        background-color: #000;
+        border-radius: 5px;
+        color: #fff;
+        display: inline-block;
+    }
+    &-buy:hover{
+        background-color: #757575;
+        color: #000;
+    }
+    &-heading, &-time, &-dec {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        // display: block;
+    }
+    
+}
+
+.footer-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    opacity: 0.7;
+    &-item {
+        font-size: 24px;
+    }
+    &-text {
+        padding-top: 20px;
+        font-size: 15px;
+        a {
+            color: #000;
+        }
+    }
+}

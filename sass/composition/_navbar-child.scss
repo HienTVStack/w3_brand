@@ -1,0 +1,20 @@
+.heading_subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    left: 0;  
+    top: 100%; 
+      
+    box-shadow: 0 25px 40px rgba(#000, .5);
+}
+.heading_item:hover .heading_subnav {
+    display: block;   
+}
+
+
+.heading_subnav .heading_item {min-width: 115px;}
+.heading_subnav .heading_link {
+    color: #000;
+    text-transform: none;
+    font-weight: 600;
+}

@@ -1,0 +1,12 @@
+#header {
+    height: 46px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
